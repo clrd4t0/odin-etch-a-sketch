@@ -1,0 +1,31 @@
+#controller {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#container {
+    width: 70vh;
+    height: 70vh;
+    border: 1px rgb(0, 0, 0)solid;
+    margin: 0vh auto;
+}
+
+.row {
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.column {
+    border: 0.1px green solid;
+    box-sizing: border-box;
+    transition-duration: 1s;
+}
+
+.column:hover{
+    background-color: aqua;
+    transition-duration: 0s;
+}
