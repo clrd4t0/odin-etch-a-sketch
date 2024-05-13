@@ -32,4 +32,9 @@ function createCanvas() {
         }
         container.appendChild(row);
     }
+    allDivs = document.querySelectorAll(".column");
+    allDivs.forEach((div) => {
+        div.addEventListener("mouseover", () => div.setAttribute("style", `background-color: aqua; ${columnDimension}`));
+        div.addEventListener("click", () => div.setAttribute("style", `${columnDimension}`));
+    })
 }

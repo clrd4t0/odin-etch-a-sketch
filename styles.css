@@ -22,10 +22,14 @@
 .column {
     border: 0.1px green solid;
     box-sizing: border-box;
-    transition-duration: 1s;
+    /* transition-duration: 1s; */
 }
 
-.column:hover{
+/* .column:hover{
     background-color: aqua;
     transition-duration: 0s;
+} */
+
+.activated {
+    background-color: aqua;
 }
